@@ -1,0 +1,19 @@
+div * {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input:invalid {
+  border-color: red;
+  background-color: rgb(246, 160, 160);
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+.error {
+  color: rgb(255, 255, 255);
+  background-color: red;
+  width: 50%;
+}
